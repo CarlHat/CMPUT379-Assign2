@@ -16,25 +16,36 @@
 #include <iostream>
 #include <fstream>
 
-#include "tands.c"
-
 using namespace std;
 
-sem_t mutexCnt;
-pthread_mutex_t mutexQ;
-pthread_mutex_t mutexIO;
-pthread_mutex_t mutexComplete;
-pthread_mutex_t mutexAsk;
-clock_t start;  // https://linuxhint.com/timer-function-cpp/
-queue<int> pQueue;
-vector<int> tCompletes;
-string fileName;
-FILE *outFile;
-bool notEOF;
-int threadCnt;
-int works;
-int sleeps;
-int asks;
-int receives;
+extern sem_t mutexCnt;
+extern pthread_mutex_t mutexQ;
+extern pthread_mutex_t mutexIO;
+extern pthread_mutex_t mutexComplete;
+extern pthread_mutex_t mutexAsk;
+extern pthread_mutex_t mutexCLock;
+extern pthread_cond_t  mutexCond;
+extern clock_t start;  // https://linuxhint.com/timer-function-cpp/
+extern queue<int> pQueue;
+extern vector<int> tCompletes;
+extern string fileName;
+extern FILE *outFile;
+extern bool notEOF;
+extern int threadCnt;
+extern int works;
+extern int sleeps;
+extern int asks;
+extern int receives;
+
+// qcontrol.cpp
+bool checkQ();
+bool emptyQ();
+void addQ(int arg);
+int popQ(int id);
+
+// iocontrol.cpp
+void summary();
+void pcWrite(int tId, int arg, int qSize, string cmd);
+tuple<int, int> cmdReadLine();
 
 #endif

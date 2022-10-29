@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "ctime": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "tands.c": "cpp",
+        "thread": "cpp",
+        "*.tcc": "cpp",
+        "sstream": "cpp"
     }
 }
