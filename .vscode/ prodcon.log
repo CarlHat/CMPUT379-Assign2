@@ -1,0 +1,96 @@
+  0.000 ID=  1      Ask         
+  0.000 ID=  2      Ask         
+  0.000 ID=  3      Ask         
+  0.000 ID=  4      Ask         
+  0.000 ID=  5      Ask         
+  0.000 ID=  6      Ask         
+  0.001 ID=  7      Ask         
+  0.001 ID=  8      Ask         
+  0.001 ID=  9      Ask         
+  0.001 ID= 10      Ask         
+  0.001 ID=  0 Q= 1 Work       4
+  0.002 ID=  0 Q= 1 Work       2
+  0.002 ID=  3 Q= 0 Receive    1
+  0.002 ID=  2 Q= 0 Receive    2
+  0.002 ID=  0 Q= 1 Work       1
+  0.001 ID=  1 Q= 0 Receive    4
+  0.003 ID=  3      Complete   1
+  0.005 ID=  3      Ask         
+  0.003 ID=  4 Q= 0 Receive    1
+  0.005 ID=  2      Complete   2
+  0.005 ID=  2      Ask         
+  0.003 ID=  0 Q= 1 Work       1
+  0.006 ID=  4      Complete   1
+  0.009 ID=  4      Ask         
+  0.009 ID=  1      Complete   4
+  0.010 ID=  1      Ask         
+  0.009 ID=  0      Sleep      9
+  0.010 ID=  0 Q= 1 Work       5
+  0.010 ID=  0      Sleep      1
+  0.010 ID=  5 Q= 0 Receive    5
+  0.019 ID=  0 Q= 1 Work       1
+  0.019 ID=  6 Q= 0 Receive    1
+  0.019 ID=  0 Q= 1 Work       1
+  0.020 ID=  0 Q= 1 Work       1
+  0.019 ID=  7 Q= 0 Receive    1
+  0.020 ID=  8 Q= 0 Receive    1
+  0.025 ID=  0 Q= 1 Work       4
+  0.030 ID=  0 Q= 1 Work       2
+  0.028 ID=  6      Complete   1
+  0.037 ID=  6      Ask         
+  0.034 ID=  5      Complete   5
+  0.039 ID=  5      Ask         
+  0.036 ID=  0 Q= 1 Work       1
+  0.036 ID=  3 Q= 0 Receive    1
+  0.037 ID=  7      Complete   1
+  0.040 ID=  7      Ask         
+  0.039 ID=  8      Complete   1
+  0.041 ID=  8      Ask         
+  0.040 ID=  0 Q= 1 Work       1
+  0.040 ID=  2 Q= 0 Receive    1
+  0.025 ID=  9 Q= 0 Receive    4
+  0.036 ID= 10 Q= 0 Receive    2
+  0.044 ID=  3      Complete   1
+  0.045 ID=  0      Sleep      9
+  0.048 ID=  3      Ask         
+  0.050 ID=  2      Complete   1
+  0.050 ID=  2      Ask         
+  0.060 ID= 10      Complete   2
+  0.061 ID= 10      Ask         
+  0.068 ID=  9      Complete   4
+  0.068 ID=  9      Ask         
+  0.069 ID=  0 Q= 1 Work       5
+  0.069 ID=  0      Sleep      1
+  0.069 ID=  4 Q= 0 Receive    5
+  0.073 ID=  4      Complete   5
+  0.073 ID=  4      Ask         
+  0.073 ID=  0 Q= 1 Work       1213
+  0.073 ID=  1 Q= 0 Receive    1213
+  0.073 ID=  0 Q= 1 Work       1321
+  0.073 ID=  6 Q= 0 Receive    1321
+  0.073 ID=  0 Q= 1 Work       1123
+  0.075 ID=  0      End         
+  0.073 ID=  5 Q= 0 Receive    1123
+  2.423 ID=  5      Complete   1123
+  2.423 ID=  5      Ask         
+  2.544 ID=  1      Complete   1213
+  2.544 ID=  1      Ask         
+  2.622 ID=  6      Complete   1321
+  2.622 ID=  6      Ask         
+Summary:
+    Work       16
+    Ask        26
+    Receive    16
+    Complete   16
+    Sleep       4
+    Thread  1   2
+    Thread  2   2
+    Thread  3   2
+    Thread  4   2
+    Thread  5   2
+    Thread  6   2
+    Thread  7   1
+    Thread  8   1
+    Thread  9   1
+    Thread 10   1
+Transactions per second: 6.10
